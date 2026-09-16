@@ -1,15 +1,37 @@
-# Daily Learning
-
-## Morning Planning
-<img alt="Cloudy morning" src="https://octodex.github.com/images/cloud.jpg" width="100" align="right">
-
-- [ ] Check out the [github blog](https://github.blog/) for topic ideas.
-- [ ] Learn about [GitHub Pages](https://skills.github.com/#first-day-on-github).
-- [ ] Convert my first blog post into an actual webpage.
-
-## Review
-Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
-
-```bash
-ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```mermaid
+flowchart LR
+    All["`**SnoCo DSA Files**`"] --> Steering["`**Steering**`"]
+    Steering --> C[Financial]
+    Steering --> D[Internal Elections]
+    All --> HGO["`**HGOs**`"]
+    HGO --> F[Case Files]
+    All --> Public["`**Public Archive**
+    	linked on website`"]
+    Public --> H[Meeting Agendas]
+    Public --> I[Resolutions]
+    I --> J[Submission Form & Drafts]
+    I --> K[Final - enrolled]
+    I --> L[Final - did not pass]
+    All --> Committee["`**Committee Files**
+    	T&C manages new co-chair access. Current co-chairs delegate access to committee members. Reset co-chair access after an election.
+    	All contain
+  	- charter
+    	- agenda/minutes
+    	- committee SOPs`"]
+    Committee --> N["`**Membership**
+        - listwork scripts
+    	- signup records`"]
+    Committee --> O["`**Tech & Comms**
+    	- draft posts
+   	- Access inventory & credentials`"]
+    Committee --> P["`**Poli Ed**
+    	- Training sign ins
+    	- Presentation files
+    	- Book group history`"]
+    Committee --> Q["`**Labor & Organizing**`"]
+    Committee --> R["`**International Solidarity**`"]
+    Committee --> S["`**Electoral**
+    	- Endorsement docs
+    	- Candidate forum docs
+    	- Committee roles/membership`"]
 ```
